@@ -18,7 +18,7 @@ body {
 	
 }
 .header{
-	background-color:#A99266;
+	background-color:#C59E47;
 	letter-spacing: 0.6px;
 	display: flex;
 	justify-content: space-between;
@@ -404,7 +404,7 @@ font-size: 10pt;
 	padding-left: 40px;
 }
 .midle-nav{
-	background: rgba(248,199,45,.8);
+	background: rgba(255, 212, 42, 0.9);
  	border: 0px;
  	position: absolute;
  	bottom: 0px;
@@ -564,7 +564,7 @@ font-size: 10pt;
 @media only screen and (min-width: 768px) and (max-width: 1365px){
 	.midle-nav{
 		position: relative;
-		background: rgb(248,199,45);
+		background:  #C59E47;;
 		top:0px;
  
  
@@ -659,7 +659,7 @@ padding-left: 0px;
 @media screen and (max-width: 767px){
 #navbarmidle{
 	padding-left: 20px;
-	background: rgb(248,199,45);
+	background:  #C59E47;;
 }
 .navbarborder>li:last-child {
 	margin-left: 0px;
@@ -694,7 +694,7 @@ padding-left: 0px;
 .midle-nav{
 		position:relative;
 		top:0px;
-		background: rgba(248,199,45,.9)
+		background:  #C59E47;
 	}
 	.navbarborder{
 		margin-left: 0px;
@@ -857,8 +857,8 @@ ul{
 	margin-bottom: 42px;
 }
 .featurecontant>button{
-	background: #020243;
-	border: 1px solid #020243;
+	background: #000000;
+	border: 1px solid #000000;
 	font-family: "OpenSans Regular";
 	font-size: 19px;
 	color:#fff;
@@ -874,9 +874,9 @@ ul{
     -o-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
     transition: all .2s ease-in;
-	border: 1px solid #020243;
+	border: 1px solid #000000;
 	background: none;
-	color: #020243;
+	color: #000000;
 } 
  
 
@@ -914,10 +914,10 @@ ul{
 }
 #readmore>button{
 	background: none;
-	border: 1px solid #020243; 
+	border: 1px solid #000000; 
 	font-family: "OpenSans Regular";
 	font-size: 19px;
-	color:#020243;
+	color:#000000;
 	letter-spacing: 5px;
 	width: 70%;
 	margin-left: 17%;
@@ -926,7 +926,7 @@ ul{
 	padding-bottom: 15px;
 }
 #readmore>button:hover{
-	background: #020243;
+	background: #000000;
 	color: #fff;
 	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -958,10 +958,10 @@ ul{
 }
 #readmore2>button{
 	background: none;
-	border: 1px solid #020243; 
+	border: 1px solid #000000; 
 	font-family: "OpenSans Regular";
 	font-size: 19px;
-	color:#020243;
+	color:#000000;
 	letter-spacing: 5px;
 	width: 68%;
 	margin-left: 17%;
@@ -970,7 +970,7 @@ ul{
 	padding-bottom: 15px;
 }
 #readmore2>button:hover{
-	background: #020243;
+	background:#000000;
 	color: #fff;
 	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -1059,7 +1059,7 @@ margin-left: auto;
 	letter-spacing: 10px;
 	padding-top: 66px;
 	padding-bottom: 70px;
-	color: #020243;
+	color: #000000;
 }
 .sortby{
 	font-family: "OpenSans Regular";
@@ -1406,7 +1406,7 @@ padding-left: 0px;
 }
  .rightside>button:hover{
  	background:#fff;
- 	color: #000;
+ 	color: #000000;
  	-moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
@@ -1651,9 +1651,9 @@ background-color: #191919;
 color: #fff;
 font-family: "Roboto Light";
 font-size: 12px;
+background:#D1AA30 ;
 
 width: 100%;
-height: 30px;
  
 }
 .copyright{
@@ -1762,51 +1762,13 @@ font-size: 20px;
 background: #D1AA30;
   }
    
-  /**.fieldsetformulairecontact {
-	margin-bottom: 15px;
-	padding: 10px;
+  .bottommenu {
+    margin-top: 30px;
+	
   }
-   
-  legend {
-	padding: 0px 3px;
-	font-weight: bold;
-	font-variant: small-caps;
+
+  .footerok {
+	display:flex;
+	width: 100%;
+
   }
-   
-  label {
-	width: 110px;
-	display: inline-block;
-	vertical-align: top;
-	margin: 6px;
-  }
-   
-  em {
-	font-weight: bold;
-	font-style: normal;
-	color: #f00;
-  }
-   
-  input:focus {
-	background: #eaeaea;
-  }
-   
-  input, textarea {
-	width: 249px;
-  }
-   
-  textarea {
-	height: 100px;
-  }
-   
-  select {
-	width: 254px;
-  }
-   
-  input[type=checkbox] {
-	width: 10px;
-  }
-   
-  input[type=submit] {
-	width: 150px;
-	padding: 10px;
-  }**/
